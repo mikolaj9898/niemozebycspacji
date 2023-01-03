@@ -4,27 +4,130 @@
 <head>
 <meta charset="utf-8" http-equiv="Content-Type" CONTENT="text/html; charset=iso-8859-2" />
 <title>
-Formularz
+Zadanie Formularz
 </title>
 </head>
 <body>
-  <button>
+<button>
 <a href="index.html">Strona główna</a>
-</button> <br>
-  <input type="text"><br>Imię</br>
-  <input type="text"><br>Nazwisko</br>
-  <input type="text"><br>Nick</br>
-  <input type="text"><br>Hasło</br>
-  <input type="text"><br>Email</br>
-  <br>Jaką klasą postaci lubisz grać?</br>
-  <input type="checkbox">Jade <input type="checkbox">Mage <input type="checkbox">Guild <input type="checkbox">Dragonmancer</br>
-  Jaka jest twoja ulubiona postać?
-  <br><input type="checkbox">JAX</br>
-  <br><input type="checkbox">XAYAH</br>
-  <br><input type="checkbox">TWITCH</br>
+</button>
+<body bgcolor="lightblue">
+<center><h1>Ankieta społeczna</h1></center>
+<form>
+<table>
+
+<TR height="100">
+ <TD width="500"> 
+ <b>Imię</b> &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22"> 
+ <br><br>
+ <b>Nazwisko</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22"> 
+ <br><br>
+ <b>Adres e-mail</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp <input name="nazwisko" size="22"> 
+ <br><br>
+
+ </TD> 
+ <TD width="300" > 
+<center><font size="5" color="black"><b>ulubiona restauracja fast food</b></font></center><br>
+ <center> <select>
+ <option value="subway">subway</option>
+ <option value="kfc">kfc</option>
+ <option value="burger king">burger king</option>
+ <option value="mcdonald's">mcdonald's</option>
+ <option value="max burgers">max burgers</option>
+ </select> </center>
+ </TD> 
+
+<TD width="300" > 
+<center><font size="5" color="black"><b>ulubiona przeglądarka</b></font></center><br>
+ <center> <select>
+ <option value="opera gx">opera gx</option>
+ <option value="google chrome">google chrome</option>
+ <option value="firefox">firefox</option>
+ <option value="microsoft edge">microsoft edge</option>
+ </select> </center>
+ </TD> 
+
+<TR height="200">
+ <TD><nobr>ile masz lat?</nobr>
+<br><br>
+<input type="radio" name="pyt1" value="0-18">0-18
+<br><br>
+<input type="radio" name="pyt1" value="19-50">19-50
+<br><br>
+<input type="radio" name="pyt1" value="50+">50+
+<br><br>
+
+<TD><nobr>najlepsza marka telefonu</nobr>
+<br><br>
+<input type="radio" name="pyt2" value="apple">apple
+<br><br>
+<input type="radio" name="pyt2" value="samsung">samsung
+<br><br>
+<input type="radio" name="pyt2" value="xiaomi">xiaomi
+<br><br>
+<input type="radio" name="pyt2" value="huawei">huawei
+<br><br>
+
+<TD width="500">Jaka jest Twoja ulubiona kawiarnia?
+<br><br>
+<input type="checkbox" name="kawiarnia" value="st"> starbucks
+<br><br>
+<input type="checkbox" name="kawiarnia" value="cc"> costa coffe
+<br><br>
+<input type="checkbox" name="kawiarnia" value="cn"> caffe nero
+<br><br>
+<input type="checkbox" name="kawiarnia" value="inna"> nie pije kawy
+<br><br><br>
+ </TD>
+ </TR>
+
+<TD width="500">ulubiony gatunek muzyczny
+<br><br>
+<input type="checkbox" name="muzyka" value="rap">rap
+<br><br>
+<input type="checkbox" name="muzyka" value="pop">pop
+<br><br>
+<input type="checkbox" name="muzyka" value="jazz">jazz
+<br><br>
+<input type="checkbox" name="muzyka" value="rock">rock
+<br><br><br>
+
+<TD><nobr>najlepszy styl pływacki</nobr>
+<br><br>
+<input type="radio" name="pyt3" value="żabka">żabka
+<br><br>
+<input type="radio" name="pyt3" value="motylkowy">motylkowy
+<br><br>
+<input type="radio" name="pyt3" value="kraul">kraul
+<br><br>
+
+<TD><nobr>ulubiona dyscyplina sportowa</nobr>
+<br><br>
+<input type="radio" name="pyt4" value="koszykówka">koszykówka
+<br><br>
+<input type="radio" name="pyt4" value="siatkówka">siatkówka
+<br><br>
+<input type="radio" name="pyt4" value="piłka nożna">piłka nożna
+<br><br>
+<input type="radio" name="pyt4" value="piłka ręczna">piłka ręczna
+<br><br>
+
+<b> W polu poniżej <br>Wpisz 
+opinię na temat tej ankiety</b> <textarea cols="50" rows="4"></textarea> </TD> 
+
+<TR height="100">
+ <TD><button onclick="alert('wypełnij ankietę')" style="height:80px;width:150px">Pomoc</button></TD> 
+ <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> 
+</TD> 
+<TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD>
+ </TR>
 
 
-
+</table>
+</form>
 </body>
-
 </html>
